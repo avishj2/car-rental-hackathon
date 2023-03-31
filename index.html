@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HireRide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- NAVIGATION BAR -->
+    <nav>  
+        <div class="left-side">
+          <img src="/logo.PNG" alt="Company Logo">
+          <h1>HireRide - Car Rental Services</h1>
+        </div>
+        <div class="right-side">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#places">Rides</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#booking-form">Bookings</a></li>
+          </ul>
+        </div>
+    </nav>
+
+
+    <!-- SIDEBAR -->
+    <div id="sidebar">
+        <div class="icon-container">
+          <a href="https://www.facebook.com"><img class="side-icons" src="/icons/facebook.png" width="30" height="30"></a>
+          <a href="https://www.instagram.com"><img class="side-icons" src="/icons/instagram.jfif" width="30" height="30"></a>
+          <a href="https://www.pinterest.com"><img class="side-icons" src="/icons/pinterest.png" width="30" height="30"></a>
+          <a href="https://www.twitter.com"><img class="side-icons" src="/icons/twitter.png" width="30" height="30"></a>
+          <a href="https://www.youtube.com"><img class="side-icons" src="/icons/youtube.png" width="30" height="30"></a>      
+        </div>
+    </div>
+
+
+    <!-- ABOUT US -->
+    <div class="about-us-section" id="about">
+        <h1>About Us</h1>
+        <p>Welcome to our car rental company website, your one-stop destination for hassle-free car rentals! Our mission is to provide our customers with top-quality rental cars and exceptional customer service. With our easy-to-use online booking system, you can browse through our extensive fleet of vehicles and choose the perfect car for your needs. Whether you're looking for a small and efficient car for a solo trip, a spacious SUV for a family vacation, or a luxury sedan for a special occasion, we have the right car for you.We take pride in maintaining our fleet to the highest standards, ensuring that each car is clean, safe, and well-maintained. Plus, we offer flexible rental options, including short-term and long-term rentals, to fit your schedule and budget.
+          
+        Our friendly and knowledgeable staff are always ready to assist you with any questions or concerns you may have, from selecting the right car to answering questions about our rental policies. And with convenient pick-up and drop-off locations, you can enjoy the freedom and flexibility of renting a car with ease.
+        </p>
+    </div>
+
+    
+    <!-- Rides -->
+    <div class="card-section" id="places">
+        <h2>Rides</h2><br>
+        <div class="card">
+          <img src="/cards/excent.jpg" class="card-img-top">
+          <div class="card-body">
+            <h3>Hyundai Xcent</h3>
+            <p class="card-text">The Hyundai Xcent is a compact sedan that offers a comfortable and stylish ride. It is known for its fuel efficiency and advanced features.</div>
+            <p>Price: 1500₹/day</p>
+        </div>
+        <div class="card">
+          <img src="/cards/dsire.jpg" class="card-img-top">
+          <div class="card-body">
+            <h3>Maruti Dzire</h3>
+            <p class="card-text">The Maruti Suzuki Dzire is a compact sedan that offers a spacious interior and comfortable ride. It is a popular choice among cab companies in India.</div>
+            <p>Price: 1500₹/day</p>
+        </div>
+        <div class="card">
+            <img src="/cards/etios.jpg" class="card-img-top">
+            <div class="card-body">
+              <h3>Toyota Etios</h3>
+              <p class="card-text">The Toyota Etios is a mid-size sedan that offers a comfortable and reliable ride. It is known for its spacious interior and low maintenance cost.</div>
+              <p>Price: 1500₹/day</p>
+          </div>
+          <div class="card">
+            <img src="/cards/indica.jpg" class="card-img-top">
+            <div class="card-body">
+              <h3>Tata Indica</h3>
+              <p class="card-text">The Tata Indica is a hatchback that is popular among cab companies in India due to its fuel efficiency and low maintenance cost.</div>
+              <p>Price: 1500₹/day</p>
+          </div>
+          <div class="card">
+            <img src="/cards/verito.jpg" class="card-img-top">
+            <div class="card-body">
+              <h3>Mahindra Verito</h3>
+              <p class="card-text">The Mahindra Verito is a mid-size sedan that offers a comfortable and spacious ride. It is known for its fuel efficiency and low maintenance cost.</div>
+              <p>Price: 1500₹/day</p>
+          </div>
+      </div>
+
+
+
+        <!-- REVIEWS -->
+        <section id="reviews">
+          <h2>Customer Reviews</h2>
+          <div class="review">
+              <div class="review-header">
+                  <img src="/face/face1.jfif" alt="Customer 1" class="review-img">
+                  <h3 class="review-name">Sam</h3>
+              </div>
+              <p class="review-text">
+                "I have been using HireRide for my car rentals for several years now, and I couldn't be happier with the service. The online booking system is very convenient..</p>
+          </div>
+          <div class="review">
+              <div class="review-header">
+                  <img src="/face/face2.jfif" alt="Customer 2" class="review-img">
+                  <h3 class="review-name">Harris</h3>
+              </div>
+              <p class="review-text">I especially appreciated the affordable rental price and the flexibility of the rental duration. I will definitely be using HireRide for all my future car rental needs.</p>
+          </div>
+          <div class="review">
+              <div class="review-header">
+                  <img src="/face/face3.jfif" alt="Customer 3" class="review-img">
+                  <h3 class="review-name">Alina</h3>
+              </div>
+              <p class="review-text">Tthe cars are always in excellent condition and the prices are unbeatable. I highly recommend HireRide to anyone in need of a reliable and affordable rental car.</p>
+          </div>
+      </section>
+
+
+        <!-- BOOKING FORM -->
+        <form id="booking-form">
+          <h2>Book Your Ride</h2>
+          <input type="text" id="name" name="name" placeholder="Name" required><br><br>
+          <input type="tel" id="phone" name="phone" placeholder="Phone" required><br><br>
+        
+          <label for="Select Ride">Select Ride:</label>
+          <select id="Select Ride" name="Select Ride" aria-placeholder="Select Ride" required>
+            <option value="Maruti Dzire">Maruti Dzire</option>
+            <option value="Toyota Etios">Toyota Etios</option>
+            <option value="Tata Indica">Tata Indica</option>
+            <option value="Mahindra Verito">Mahindra Verito</option>
+            <option value="Hyundai Xcent">Hyundai Xcent</option>
+          </select><br><br>
+        
+          <input type="submit" value="Submit">
+        </form>
+
+        
+        <!-- CONTACT US -->
+        <footer>
+          <div>
+              <div>
+                  <div class="contact-us">
+                      <h4>Contact Us</h4>
+                      <p>123-456-7890</p>
+                      <p>info@HireRide.com</p>
+                      <p>shop no.11, main city</p>
+                  </div>
+                  <div class="follow-us">
+                      <a href="https://www.facebook.com"><img src="/icons/facebook.png" width="30px"></a>
+                      <a href="https://www.twitter.com"><img src="/icons/twitter.png" width="30px"></a>
+                      <a href="https://www.instagram.com"><img src="/icons/instagram.jfif" width="30px"></a>
+                      <a href="https://www.pinterest.com"><img src="/icons/pinterest.png" width="30px"></a>
+                      <a href="https://www.youtube.com"><img src="/icons/youtube.png" width="30px"></a>
+                  </div>
+              </div>
+          </div>
+      </footer>             
+</body>
+</html>
